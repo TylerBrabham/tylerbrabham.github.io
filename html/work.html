@@ -8,7 +8,7 @@
         <!-- Include boostrap first -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
-        <link rel="stylesheet" type="text/css" href="../stylesheets/all.css">
+        <link rel="stylesheet" type="text/css" href="../css/all.css">
     </head>
 
     <body>
@@ -36,7 +36,83 @@
         </nav>
 
         <div class="container">
-            <h1>My work</h1>
+            <div class="main">
+                <h1>
+                    Selected work
+                </h1>
+
+                <p>
+                    Here are some of my projects from undergraduate years and 
+                    more. Computer graphics projects were created with 
+                    <a href="http://zackmayeda.com" target="_blank">
+                    Zack Mayeda</a>, who I cannot recommend enough.
+                </p>
+
+                <div class="seleted-work">
+                    <div class="bezier">
+                        <h3>
+                            Bezier Surfaces
+                        </h3>
+
+                        <p>
+                            Rendering Bezier surfaces in OpenGL. The program 
+                            tessellates input Bezier patches to form triangles.
+                            It then computes the exact Gaussian Curvature 
+                            directly from the Weingarten map. Further it 
+                            computes an approximation to the Gaussian Curvature
+                            from the triangles and their associated normals.
+                            Below you can see the comparison between the exact
+                            computation and the approximation. In the 
+                            approximations there is some noticeable tearing on 
+                            the surface.
+                        </p>
+
+                        <p>
+                            <!--HTML for toggling thumbnail images.
+                            <div class="row">
+                              <div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                  <img src="../img/img1.png" alt="../img/img2.png">
+                                  <div class="caption">
+                                    <h3>Thumbnail label</h3>
+                                    <p>...</p>
+                                    <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            -->
+
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <img src="../img/img1.png" class="img-responsive">
+                                </div>
+                                <div class="col-xs-6">
+                                    <img src="../img/img2.png" class="img-responsive">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <img src="../img/img3.png" class="img-responsive">
+                                </div>
+                                <div class="col-xs-6">
+                                    <img src="../img/img4.png" class="img-responsive">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <img src="../img/img5.png" class="img-responsive">
+                                </div>
+                                <div class="col-xs-6">
+                                    <img src="../img/img6.png" class="img-responsive">
+                                </div>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>
