@@ -1,13 +1,28 @@
 @charset "utf-8";
 
-.container .main {
+.work-page {
     text-align: left;
+    position: relative;
+    max-width: 800px;
+    top: 75px;
+}
+
+.index-page {
+    text-align: center;
     position: relative;
     top: 75px;
 }
 
-.landing-page {
+.about-page {
     text-align: center;
     position: relative;
+    max-width: 600px;
+    top: 75px;
+}
+
+.contact-page {
+    text-align: center;
+    position: relative;
+    max-width: 600px;
     top: 75px;
 }
